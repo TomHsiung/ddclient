@@ -1,2 +1,5 @@
-# Update IP information to DNS service provider
+# Update IP information to DNS service provider.
 ddclient -daemon=0 -verbose -noquiet
+
+# Update IP information to DNS service provider with debug on.
+sudo ddclient -daemon=0 -debug -verbose -noquiet
