@@ -1,0 +1,2 @@
+# Update IP information to DNS service provider
+ddclient -daemon=0 -verbose -noquiet
